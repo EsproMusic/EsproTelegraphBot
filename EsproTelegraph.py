@@ -23,24 +23,6 @@ To generate links in **group chats**, add me to your supergroup and send the com
 
 🏠 | [Home](https://t.me/Esproupdate)
             """
-    reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "➕ ❰ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ❱ ➕", url=f"https://t.me/EsproTelegraphBot?startgroup=true")
-                ],
-                [
-                    InlineKeyboardButton(
-                        "🍁𝐆𝐫𝐨𝐮𝐩🥀", url=f"https://t.me/EsproSupport"),
-                    InlineKeyboardButton(
-                        "🍁𝐂𝐡𝐚𝐧𝐧𝐞𝐥🥀", url=f"https://t.me/EsproUpdate")
-                ],
-                [
-                    InlineKeyboardButton(
-                        "❄️𝐎𝐰𝐧𝐞𝐫❄️", url=f"https://t.me/l_ll_ritikraj_ll_l")
-                ]
-           ]
-        )
     await EsproTelegraph.send_message(message.chat.id, text, disable_web_page_preview=True)
     
 
