@@ -40,8 +40,7 @@ To generate links in **group chats**, add me to your supergroup and send the com
                         "❄️𝐎𝐰𝐧𝐞𝐫❄️", url=f"https://t.me/l_ll_ritikraj_ll_l")
                 ]
            ]
-        ),
-    )
+        )
     await EsproTelegraph.send_message(message.chat.id, text, disable_web_page_preview=True)
     
 
