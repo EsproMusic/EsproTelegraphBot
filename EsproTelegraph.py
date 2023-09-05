@@ -42,7 +42,7 @@ To generate links in **group chats**, add me to your supergroup and send the com
            ]
         )
     
-    await EsproTelegraph.send_message(message.chat.id, text, disable_web_page_preview=True)
+    await EsproTelegraph.send_message(message.chat.id, text, reply_markup, disable_web_page_preview=True)
     
 
 @EsproTelegraph.on_message(filters.media & filters.private)
