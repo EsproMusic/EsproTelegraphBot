@@ -37,7 +37,7 @@ To generate links in **group chats**, add me to your supergroup and send the com
                 ],
                 [
                     InlineKeyboardButton(
-                        "❄️𝐎𝐰𝐧𝐞𝐫❄️", url=f"https://t.me/{OWNER_USERNAME}")
+                        "❄️𝐎𝐰𝐧𝐞𝐫❄️", url=f"https://t.me/l_ll_ritikraj_ll_l")
                 ]
            ]
         )
