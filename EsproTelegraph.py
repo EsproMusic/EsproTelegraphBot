@@ -12,8 +12,6 @@ EsproTelegraph=Client(
 
 @EsproTelegraph.on_message(filters.command('start') & filters.private)
 async def start(client, message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/cd05f081b064788bdae68.jpg",
     text = f"""
 Heya {message.from_user.mention},
 I am here to generate Telegraph links for your media files.
